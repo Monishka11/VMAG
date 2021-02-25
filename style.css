@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     width: 100vw;
     background-image: url(./1.jpg);
@@ -12,6 +13,27 @@ body{
     place-items: center center;
     font-family: 'Poppins',sans-serif;
 }
+
+nav{
+    height: 10vh;
+    background: #db0f72;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
