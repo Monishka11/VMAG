@@ -50,23 +50,7 @@ img{
     );
 }
 
-.card4>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #0100ec,
-        #fb36f4
-    );
-}
-
 .card2>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #2bdce3,
-        #42ffdb
-    );
-}
-
-.card5>.container:after{
     background-image: linear-gradient(
         135deg,
         #2bdce3,
@@ -82,11 +66,11 @@ img{
     );
 }
 
-.card6>.container:after{
+.card4>.container:after{
     background-image: linear-gradient(
         135deg,
-        #ffab1d,
-        #f8501c
+        #e0abe0,
+        #d6cb2b
     );
 }
 
