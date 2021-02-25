@@ -49,6 +49,15 @@ img{
         #fb36f4
     );
 }
+
+.card4>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #fb36f4
+    );
+}
+
 .card2>.container:after{
     background-image: linear-gradient(
         135deg,
@@ -56,6 +65,15 @@ img{
         #42ffdb
     );
 }
+
+.card5>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #2bdce3,
+        #42ffdb
+    );
+}
+
 .card3>.container:after{
     background-image: linear-gradient(
         135deg,
@@ -63,6 +81,15 @@ img{
         #f8501c
     );
 }
+
+.card6>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+}
+
 .details{
     padding: 20px 10px;
 }
